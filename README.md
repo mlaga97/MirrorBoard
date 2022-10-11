@@ -1,0 +1,1 @@
+Maps keyboard to flip keyboard layout while spacebar is pressed. Pressing and releasing spacebar inserts a space. Pressing and holding spacebar does nothing. You may need to recompile xcape-1.2 under the directory of the same name.
