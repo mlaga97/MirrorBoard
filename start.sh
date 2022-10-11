@@ -8,4 +8,5 @@ xmodmap -e "keycode 65 = ISO_Level3_Shift"
 xmodmap -e "keycode any = space"
 
 # Map long press of spacebar to level 3 shift
-xcape-1.2/xcape -e 'ISO_Level3_Shift=space'
+killall xcape
+xcape-1.2/xcape -e 'ISO_Level3_Shift=space' -t 250
